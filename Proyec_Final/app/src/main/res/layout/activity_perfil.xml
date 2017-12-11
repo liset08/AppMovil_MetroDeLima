@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perfil"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.liset.proyec_final.PerfilActivity"
+    android:weightSum="1"
+    tools:background="@color/cardview_light_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@color/cardview_light_background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/portad"
+                android:id="@+id/imageView17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="390dp">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ident"
+                android:id="@+id/imageView13"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="0.01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/etdni"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="330dp">
+
+            <ImageView
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/correo"
+                android:id="@+id/imageView12"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/etcorreo"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/tar"
+                android:id="@+id/imageView9"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="55dp" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="match_parent"
+                android:id="@+id/etcodigocard"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="450dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/tele"
+                android:id="@+id/imageView15"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ettelefono"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_height="wrap_content"
+                android:id="@+id/btnvolver"
+                android:background="@mipmap/ic"
+                android:elevation="22dp"
+                android:visibility="visible"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_width="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="270dp">
+
+            <ImageView
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/nom"
+                android:id="@+id/imageView16"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_width="40dp"
+                android:layout_weight="0.08" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/etname"
+                android:layout_weight="0.83"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            app:srcCompat="@mipmap/seor"
+            android:id="@+id/imageView"
+            android:layout_height="100dp"
+            tools:background="@drawable/monto"
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+
+            android:layout_marginTop="100dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
